@@ -18,6 +18,7 @@
     "react-dom": "^18.3.1",
     "remixicon": "^4.6.0",
     "sass": "^1.83.4",
+    "swiper": "^11.2.1",
     "tailwindcss": "^3.4.17"
   },
   "devDependencies": {
