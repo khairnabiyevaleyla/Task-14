@@ -84,3 +84,31 @@
 .banner-btn:hover {
   color: #fff;
 }
+
+.product-btn {
+  color: #fff;
+  font-size: 14px;
+  line-height: 1;
+  padding: 13px 33px;
+  background-color: #ed59a0;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+
+  @media (min-width: 640px) {
+    font-size: 16px;
+    padding: 15px 40px;
+  }
+
+  @media (min-width: 768px) {
+    font-size: 14px;
+    padding: 16px 45px;
+  }
+}
+
+.custom-image {
+  @apply transition-all duration-500 ease-in-out;
+}
+.custom-image:hover {
+  @apply transform scale-110;
+}
