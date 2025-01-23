@@ -120,5 +120,25 @@
       "title": "New",
       "productname": "Lorem ipsum flower four"
     }
+  ],
+  "flowerscards": [
+    {
+      "id": 1,
+      "mainimage": "https://flone.jamstacktemplates.dev/assets/img/banner/banner-35.png",
+      "price": 99,
+      "title": "Flower"
+    },
+    {
+      "id": 2,
+      "mainimage": "https://flone.jamstacktemplates.dev/assets/img/banner/banner-36.png",
+      "price": 79,
+      "title": "Flower"
+    },
+    {
+      "id": 3,
+      "mainimage": "https://flone.jamstacktemplates.dev/assets/img/banner/banner-37.png",
+      "price": 29,
+      "title": "Flower"
+    }
   ]
 }
