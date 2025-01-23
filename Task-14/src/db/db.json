@@ -1,0 +1,124 @@
+{
+  "productscards": [
+    {
+      "id": 1,
+      "mainimage": "https://flone.jamstacktemplates.dev/assets/img/product/flowers/1.jpg",
+      "hoverimage": "https://flone.jamstacktemplates.dev/assets/img/product/flowers/2.jpg",
+      "price": 1.5,
+      "discountprice": 1.2,
+      "discount": 20,
+      "title": "New",
+      "productname": "Lorem ipsum flower one"
+    },
+    {
+      "id": 2,
+      "mainimage": "https://flone.jamstacktemplates.dev/assets/img/product/flowers/3.jpg",
+      "hoverimage": "https://flone.jamstacktemplates.dev/assets/img/product/flowers/4.jpg",
+      "price": 3.5,
+      "discountprice": 3.33,
+      "discount": 5,
+      "title": "New",
+      "productname": "Lorem ipsum flower two"
+    },
+    {
+      "id": 3,
+      "mainimage": "https://flone.jamstacktemplates.dev/assets/img/product/flowers/4.jpg",
+      "hoverimage": "https://flone.jamstacktemplates.dev/assets/img/product/flowers/5.jpg",
+      "price": 4.5,
+      "discountprice": 3.6,
+      "discount": 20,
+      "title": "New",
+      "productname": "Lorem ipsum flower three"
+    },
+    {
+      "id": 4,
+      "mainimage": "https://flone.jamstacktemplates.dev/assets/img/product/flowers/5.jpg",
+      "hoverimage": "https://flone.jamstacktemplates.dev/assets/img/product/flowers/6.jpg",
+      "price": 7.5,
+      "discountprice": 5.25,
+      "discount": 30,
+      "title": "New",
+      "productname": "Lorem ipsum flower four"
+    },
+    {
+      "id": 5,
+      "mainimage": "https://flone.jamstacktemplates.dev/assets/img/product/flowers/6.jpg",
+      "hoverimage": "https://flone.jamstacktemplates.dev/assets/img/product/flowers/7.jpg",
+      "price": 3.5,
+      "discountprice": 2.8,
+      "discount": 20,
+      "title": "New",
+      "productname": "Lorem ipsum flower five"
+    },
+    {
+      "id": 6,
+      "mainimage": "https://flone.jamstacktemplates.dev/assets/img/product/flowers/7.jpg",
+      "hoverimage": "https://flone.jamstacktemplates.dev/assets/img/product/flowers/8.jpg",
+      "price": 2.5,
+      "discountprice": 1.75,
+      "discount": 30,
+      "title": "New",
+      "productname": "Lorem ipsum flower six"
+    },
+    {
+      "id": 7,
+      "mainimage": "https://flone.jamstacktemplates.dev/assets/img/product/flowers/8.jpg",
+      "hoverimage": "https://flone.jamstacktemplates.dev/assets/img/product/flowers/1.jpg",
+      "price": 1.5,
+      "discountprice": 1.2,
+      "discount": 20,
+      "title": "New",
+      "productname": "Lorem ipsum flower seven"
+    },
+    {
+      "id": 8,
+      "mainimage": "https://flone.jamstacktemplates.dev/assets/img/product/flowers/5.jpg",
+      "hoverimage": "https://flone.jamstacktemplates.dev/assets/img/product/flowers/6.jpg",
+      "price": 7.5,
+      "discountprice": 5.25,
+      "discount": 30,
+      "title": "New",
+      "productname": "Lorem ipsum flower four"
+    },
+    {
+      "id": 9,
+      "mainimage": "https://flone.jamstacktemplates.dev/assets/img/product/flowers/3.jpg",
+      "hoverimage": "https://flone.jamstacktemplates.dev/assets/img/product/flowers/6.jpg",
+      "price": 7.5,
+      "discountprice": 5.25,
+      "discount": 30,
+      "title": "New",
+      "productname": "Lorem ipsum flower four"
+    },
+    {
+      "id": 10,
+      "mainimage": "https://flone.jamstacktemplates.dev/assets/img/product/flowers/1.jpg",
+      "hoverimage": "https://flone.jamstacktemplates.dev/assets/img/product/flowers/6.jpg",
+      "price": 7.5,
+      "discountprice": 5.25,
+      "discount": 30,
+      "title": "New",
+      "productname": "Lorem ipsum flower four"
+    },
+    {
+      "id": 11,
+      "mainimage": "https://flone.jamstacktemplates.dev/assets/img/product/flowers/3.jpg",
+      "hoverimage": "https://flone.jamstacktemplates.dev/assets/img/product/flowers/6.jpg",
+      "price": 7.5,
+      "discountprice": 5.25,
+      "discount": 30,
+      "title": "New",
+      "productname": "Lorem ipsum flower four"
+    },
+    {
+      "id": 12,
+      "mainimage": "https://flone.jamstacktemplates.dev/assets/img/product/flowers/8.jpg",
+      "hoverimage": "https://flone.jamstacktemplates.dev/assets/img/product/flowers/6.jpg",
+      "price": 7.5,
+      "discountprice": 5.25,
+      "discount": 30,
+      "title": "New",
+      "productname": "Lorem ipsum flower four"
+    }
+  ]
+}

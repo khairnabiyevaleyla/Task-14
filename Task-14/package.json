@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "server": "json-server --watch src/db/db.json --port 3001"
   },
   "dependencies": {
     "autoprefixer": "^10.4.20",
@@ -16,6 +17,7 @@
     "postcss": "^8.5.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "react-paginate": "^8.2.0",
     "remixicon": "^4.6.0",
     "sass": "^1.83.4",
     "swiper": "^11.2.1",
