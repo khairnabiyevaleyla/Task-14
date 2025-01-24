@@ -5,6 +5,7 @@ import ProductsBanner from "./templates/ProductsBanner/ProductsBanner";
 import FeautredProducts from "./components/FeautredProducts/index";
 import FlowersCards from "./components/FlowersCards/index";
 import SubscribeForm from "./components/SubscribeForm/index";
+import Testemonials from "./components/Testimonials/index";
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
       <SliderBanner />
       <ProductsBanner />
       <FeautredProducts />
+      <Testemonials />
       <FlowersCards />
       <SubscribeForm />
     </Layout>
