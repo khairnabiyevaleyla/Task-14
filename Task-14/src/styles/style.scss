@@ -66,6 +66,20 @@
   z-index: 1;
 }
 
+@media (max-width: 1024px) {
+  .banner-btn {
+    font-size: 14px;
+    padding: 16px 36px;
+  }
+}
+
+@media (max-width: 768px) {
+  .banner-btn {
+    font-size: 12px;
+    padding: 14px 30px;
+  }
+}
+
 .banner-btn::after {
   position: absolute;
   content: "";
