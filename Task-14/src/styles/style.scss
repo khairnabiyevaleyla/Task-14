@@ -169,3 +169,19 @@
 .second-font {
   font-family: "Cormorant Garamond", serif;
 }
+
+.search-input {
+  background: transparent;
+  border: 1px solid #d3d3d3;
+  color: #000;
+  outline: none;
+  padding: 5px 72px 5px 15px;
+  transition: all 0.4s ease 0s;
+  width: 100%;
+}
+.searc-box {
+  background: #fff none repeat scroll 0 0;
+  box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.1);
+  min-width: 300px;
+  padding: 15px;
+}

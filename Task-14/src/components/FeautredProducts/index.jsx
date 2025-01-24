@@ -2,15 +2,18 @@ import React, { useState, useEffect } from "react";
 import ProductsCards from "./ProductsCards";
 import { getAPI } from "../../http/api";
 import ReactPaginate from "react-paginate";
+import SearchInput from "../SearchInput/index";
 
 const FeautredProducts = () => {
   const [showData, setShowData] = useState([]);
+  const [filteredData, setFilteredData] = useState([]);
   const [currentPage, setCurrentPage] = useState(0);
   const itemsPerPage = 4;
 
   useEffect(() => {
     getAPI("/productscards", (data) => {
       setShowData(data);
+      setFilteredData(data);
     });
   }, []);
 
@@ -19,8 +22,8 @@ const FeautredProducts = () => {
   }
 
   const offset = currentPage * itemsPerPage;
-  const currentData = showData.slice(offset, offset + itemsPerPage);
-  const pageCount = Math.ceil(showData.length / itemsPerPage);
+  const currentData = filteredData.slice(offset, offset + itemsPerPage);
+  const pageCount = Math.ceil(filteredData.length / itemsPerPage);
 
   const handlePageClick = ({ selected }) => {
     setCurrentPage(selected);
@@ -29,7 +32,7 @@ const FeautredProducts = () => {
   return (
     <div className="container">
       <h3 className="text-center text-[#010101] text-[48px] mb-5">
-        Featured Product
+        Featured Products
       </h3>
       <ul className="flex flex-row justify-center gap-10 mb-10">
         <li className="text-[#ed59a0] text-[18px] font-medium cursor-pointer">
@@ -42,13 +45,16 @@ const FeautredProducts = () => {
           Sale Items
         </li>
       </ul>
+
+      <SearchInput data={showData} setFilteredData={setFilteredData} />
+
       <div className="grid grid-cols-4 gap-4 max-md:grid-cols-2 max-sm:grid-cols-1">
         {currentData.map((card, index) => (
           <ProductsCards key={index} {...card} />
         ))}
       </div>
+
       <div className="flex justify-center items-center my-10">
-        {" "}
         <ReactPaginate
           breakLabel="..."
           pageCount={pageCount}
@@ -56,8 +62,8 @@ const FeautredProducts = () => {
           pageRangeDisplayed={3}
           onPageChange={handlePageClick}
           containerClassName="flex items-center gap-2"
-          activeClassName="active-page-btn  text-white rounded-full"
-          pageClassName="bg-white page-btn text-customPurple w-[40px] h-[40px]  flex justify-center items-center rounded-full  cursor-pointer custom-transition hover:text-white hover:bg-customPurple"
+          activeClassName="active-page-btn text-white rounded-full"
+          pageClassName="bg-white page-btn text-customPurple w-[40px] h-[40px] flex justify-center items-center rounded-full cursor-pointer custom-transition hover:text-white hover:bg-customPurple"
           renderOnZeroPageCount={null}
           previousLabel={null}
           nextLabel={null}
